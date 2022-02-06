@@ -71,25 +71,37 @@
       >
       </vue-frappe>
     </div>
+    <!--CHART.JS FIM-->
 
+    <!--CHART.JS 01 INICIO-->
      <vue-frappe
             id="test"
             :labels="[
-                '12am-3am', '3am-6am', '6am-9am', '9am-12pm',
-                '12pm-3pm', '3pm-6pm', '6pm-9pm', '9pm-12am'
-            ]"
-            title="My Awesome Chart"
+          'Jan ',
+          'Fev',
+          'Mar',
+          'Abr',
+          'Mai',
+          'Jun',
+          'Jul',
+          'Ago',
+          'Set',
+          'Out',
+          'Nov',
+          'Dez',
+        ]"
+            title="Astroworld - Travis Scott - 2021"
             type="axis-mixed"
             :height="300"
             :colors="['purple', '#ffa3ef', 'light-blue']"
             :dataSets="this.dataChar1">
         </vue-frappe>
-
+    <!--CHART.JS 01 FIM-->
     
 
      
   </div>
-  <!--CHART.JS FIM-->
+  
 </template>
 
 <script>
@@ -100,30 +112,33 @@ export default {
         {
           name: "Primeira Quinzenda",
           chartType: "bar",
-          values: [15, 15, 30, 35, 18, 52, 32, -4, 15, 18, 12, 4],
+          values: [15, 17, 30, 55, 18, 52, 32, 4, 15, 18, 12, 4],
         },
         {
           name: "Segunda Quinzena",
           chartType: "bar",
-          values: [10, 40, 12, 35, 8, 22, 17, 10, 13, -5, 18, 21],
+          values: [10, 40, 12, 35, 8, 22, 17, 10, 13, 5, 18, 21],
         },
         {
-          name: "Venda Anual",
+          name: "Pico de Vendas",
           chartType: "line",
-          values: [10, 15, 12, 35, 8, 22, 17, -4, 13, -5, 12, 4],
+          values: [15, 40, 30, 55, 18, 52, 32, 10, 15, 18, 18, 21],
         },
       ],
       dataChar1: [{
-                    name: "Some Daaaaaaaaaaaata", chartType: 'bar',
-                    values: [25, 40, 30, 35, 8, 52, 17, -4]
+                    name: "Primeira Quinzenda", 
+                    chartType: 'bar',
+                    values: [2, 37, 15, 15, 5, 22, 29, 4, 13, 27, 20, 8],
                 },
                 {
-                    name: "Another Set", chartType: 'bar',
-                    values: [25, 50, -10, 15, 18, 32, 27, 14]
+                    name: "Segunda Quinzena", 
+                    chartType: 'bar',
+                    values: [21, 12, 49, 75, 82, 22, 9, 10, 13, 7, 18, 18],
                 },
                 {
-                    name: "Yet Another", chartType: 'line',
-                    values: [15, 20, -3, -15, 58, 12, -17, 37]
+                    name: "Pico de Vendas", 
+                    chartType: 'line',
+                    values: [21, 37, 49, 75, 82, 22, 29, 10, 13, 27, 20, 18],
                 }]
       
     };
