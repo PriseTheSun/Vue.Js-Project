@@ -14,6 +14,9 @@
             <b-nav-item @click="$router.push('home')">Home</b-nav-item>
             <b-nav-item @click="$router.push('produtos')">Produtos</b-nav-item>
             <b-nav-item @click="$router.push('dash')">Dash</b-nav-item>
+           <b-nav-item href="https://github.com/PriseTheSun/Vue.Js-Project.git" Download>
+            Download do Projeto
+            </b-nav-item> 
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-form>
@@ -132,6 +135,11 @@
       </vue-frappe>
     </div>
     <!--CHART.JS 02 FIM-->
+    <footer id="foot">
+    <b-row class="text-center" >
+    <b-col>@2022 todos os direitos | Com muito esforço &#128074; desenvolvido por: Erik Araujo</b-col>
+  </b-row>  
+  </footer>
   </div>
 </template>
 

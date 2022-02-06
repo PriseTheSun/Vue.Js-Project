@@ -14,7 +14,9 @@
             <b-nav-item @click="$router.push('home')">Home</b-nav-item>
             <b-nav-item @click="$router.push('produtos')">Produtos</b-nav-item>
             <b-nav-item @click="$router.push('dash')">Dash</b-nav-item>
-            <b-nav-item href="#">Download do Projeto</b-nav-item>
+            <b-nav-item href="https://github.com/PriseTheSun/Vue.Js-Project.git" Download>
+            Download do Projeto
+            </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-form>
@@ -48,7 +50,7 @@
 
     <!--INICIO CARROCEL-->
     <h2 id="title1">Albuns Mais Vendidos</h2>
-    <hr class="bar" />
+    <hr class="barHome" />
     <!--GRID-->
     <div class="container">
       <div class="row">
@@ -82,7 +84,7 @@
     <!--FIM CARROCEL-->
 
     <h2 id="title2">Nossos Albuns</h2>
-    <hr class="bar" />
+    <hr class="barHome" />
     <!-- INICIO MOCK API-->
     <div class="main">
       <div class="container">
@@ -115,7 +117,14 @@
       </div>
     </div>
     <!--FIM MOCK API-->
+  <footer id="foot">
+    <b-row class="text-center" >
+    <b-col>@2022 todos os direitos | Com muito esforço &#128074; desenvolvido por: Erik Araujo</b-col>
+  </b-row>  
+  </footer>
+
   </div>
+  
 </template>
 
 
@@ -281,7 +290,7 @@ export default {
 /*FIM SEGUNDO TITULO + ANIMAÇÃO*/
 
 /*BARRA + ANIMAÇÃO*/
-.bar {
+.barHome {
   border: 1px solid #34343434;
   color: #343434;
   width: 100px;
@@ -320,5 +329,10 @@ export default {
 
 .card {
   margin-bottom: 20px;
+}
+#foot{
+  color: #f6f6f6;
+  background-color: #343434;
+  padding: 2.5rem;
 }
 </style>

@@ -2,8 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Dash from '../views/Dash.vue'
-
 import Produtos from '../views/Produtos.vue'
+import John from '../views/John.vue'
+import Travis from '../views/Travis.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,16 @@ const routes = [{
         path: '/Dash',
         name: 'Dash',
         component: Dash
+    },
+    {
+        path: '/john',
+        name: 'John',
+        component: John
+    },
+    {
+        path: '/travis',
+        name: 'Travis',
+        component: Travis
     },
 
 ]
