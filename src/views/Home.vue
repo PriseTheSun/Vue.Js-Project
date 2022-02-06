@@ -29,7 +29,7 @@
               >
             </b-nav-form>
             <div>
-              <b-avatar rounded id="user-avatar">
+              <b-avatar rounded class="user-avatar">
                 <img src="@/assets/doo.jpg" alt="" /></b-avatar
               ><span id="user-name">Fabio Herrera</span>
             </div>
@@ -179,8 +179,12 @@ export default {
 .form-inline {
   margin-right: 10px;
 }
-#user-avatar {
+.user-avatar {
   margin-right: 7px;
+}
+.user-avatar:hover{
+   border: solid #0ad46f 2px;
+   
 }
 
 #user-name {
@@ -280,8 +284,7 @@ export default {
 .bar {
   border: 1px solid #34343434;
   color: #343434;
-  margin-left: 40%;
-  margin-right: 40%;
+  width: 100px;
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
   -webkit-animation-duration: 1s;
