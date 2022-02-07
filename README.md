@@ -1,4 +1,4 @@
-# VinilPay Music
+# VinilPay Music [https://desafioeasyjur.netlify.app/] Projeto Publicado
 
  ## Referências
  Referências que utilizei para chegar a conclusão do projeto:
