@@ -17,7 +17,7 @@
             </b-nav-item>
           <!-- <b-nav-item @click="$router.push('john')">John</b-nav-item> -->
 
-        <b-nav-item href="#">Download do Projeto</b-nav-item>
+        
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
@@ -56,7 +56,7 @@
       <b-container class="bv-example-row">
         <b-row>
           <b-col>
-            <h2 class="mt-3">Um gênio do século XX</h2>
+            <h2 class="mt-3" id="productTitle">Um gênio do século XX</h2>
             <hr class="barHome" />
             <p align="start">
               John Towner Williams (Long Island, 8 de fevereiro de 1932) é um
@@ -256,11 +256,16 @@
         </b-row>
       </b-container>
     </div>
+
+
+
+    <!--FOOTER INICIO-->
     <footer id="foot">
     <b-row class="text-center" >
     <b-col>@2022 todos os direitos | Com muito esforço &#128074; desenvolvido por: Erik Araujo</b-col>
   </b-row>  
   </footer>
+  <!--FOOTER FIM-->
   </div>
 </template>
 

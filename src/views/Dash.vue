@@ -135,11 +135,16 @@
       </vue-frappe>
     </div>
     <!--CHART.JS 02 FIM-->
+
+
+    <!--FOOTER INICIO-->
     <footer id="foot">
     <b-row class="text-center" >
     <b-col>@2022 todos os direitos | Com muito esforço &#128074; desenvolvido por: Erik Araujo</b-col>
   </b-row>  
   </footer>
+  <!--FOOTER FIM-->
+
   </div>
 </template>
 

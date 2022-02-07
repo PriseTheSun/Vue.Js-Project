@@ -125,6 +125,7 @@
                   de 120 milhões de discos vendidos.
                 </p>
               </b-card-text>
+              <b-button @click="$router.push('Adele')"  variant="outline-secondary mt-5">Saiba Mais</b-button>
             </b-card>
           </div>
         </b-col>

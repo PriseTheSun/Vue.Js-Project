@@ -5,6 +5,7 @@ import Dash from '../views/Dash.vue'
 import Produtos from '../views/Produtos.vue'
 import John from '../views/John.vue'
 import Travis from '../views/Travis.vue'
+import Adele from '../views/Adele.vue'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,11 @@ const routes = [{
         path: '/travis',
         name: 'Travis',
         component: Travis
+    },
+    {
+        path: '/adele',
+        name: 'Adele',
+        component: Adele
     },
 
 ]

@@ -57,7 +57,7 @@
       <b-container class="bv-example-row">
         <b-row>
           <b-col>
-            <h2 class="mt-3">O Legado do Rap/Hip Hop</h2>
+            <h2 class="mt-3" id="productTitle">O Legado bem-sucedido do Rap/Hip Hop</h2>
             <hr class="barHome" />
             <p align="start">
               Jacques Berman Webster II (Houston, 30 de abril de 1991), mais
@@ -429,4 +429,36 @@ export default {
 
 
 <style>
+#productTitle{
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInDown {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+}
 </style>
