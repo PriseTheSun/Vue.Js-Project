@@ -141,6 +141,7 @@
 
 
 <script>
+alert("Saudações, Antes que comeces a avaliar este projeto, gostaria de agradecer a oportunidade. Acredito que se me questionassem numa conversa não formal perguntado se eu era capaz, dificilmente responderia que 'SIM' um pequeno passo para um hunter, pois para mim, sinto que quebrei qualquer recorde de salto em distância. Ainda não sou proficiente em toda a tecnologia que utilizei, porem fui capaz de realizar atravez de muita pesquisa e dedicação. No mais sinto-me melhor pela realização. Tenha um/uma excelente dia/noite. (git commit-m 'End-Project')" )
 import Vue from "vue";
 export default {
   name: "Home",
