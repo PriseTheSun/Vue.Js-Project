@@ -188,6 +188,10 @@ export default {
 
 <style>
 /*INICIO ESTILO HEADER*/
+.navbar-nav{
+  align-items: flex-start;
+  padding: 5px;
+}
 #logo {
   font-size: 2.5rem;
 }
@@ -199,6 +203,13 @@ export default {
 .form-inline {
   margin-right: 10px;
 }
+
+@media(max-width: 425px){
+  .form-inline{
+    display: none;
+  }
+}
+
 .user-avatar {
   margin-right: 7px;
 }
@@ -236,6 +247,11 @@ export default {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+@media(max-width: 425px){
+  .carousel-caption h3{
+    font-size: 0.99rem;
+  }
+}
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -258,6 +274,12 @@ export default {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
+  }
+}
+
+@media (min-width: 425px){
+  h2{
+    font-size:25px;
   }
 }
 /*FIM PRIMEIRO TITULO + ANIMAÇÃO*/

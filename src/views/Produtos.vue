@@ -34,95 +34,94 @@
     </b-navbar>
 
     <!--TITULO INICIO-->
-    <b-container class="mt-5 col-12 col-md-6">
-      <h2 class="bv-row mt-5" id="productTitle">Melhores Avaliados por Categoria</h2>
-      <hr class="barHome mb-5"/>
-      <!--TITULO FIM-->
-
-      <!-- Inicio 1ªColuna + Card-->
-      <b-row>
-        <b-col >
-          <div id="productCard">
-            <b-card
-              title="Musica Classica"
-              img-src="https://cdn.falauniversidades.com.br/wp-content/uploads/2020/05/05175049/Quem-%C3%A9-John-Williams.jpg"
-              img-alt="Image"
-              img-top
-              tag="article"
-              style="max-width: 20rem"
-              class="mb-2"
-            >
-              <b-card-text>
-                <strong>John Towner Williams</strong>
-                <p align="start">
-                  <br />Maestro e Compositor americano premiado várias vezes por
-                  suas trilhas sonoras. Amigo de Steven Spielberg, assina quase
-                  todas as trilhas de seus filmes, tais como os temas
-                  inesquecíveis de Jaws, E.T. the Extra-Terrestrial, Jurassic
-                  Park e Schindler's List.
-                </p>
-              </b-card-text>
-              <b-button @click="$router.push('John')"  variant="outline-secondary">Saiba Mais</b-button>
-              </b-card>
-          </div>
-        </b-col>
-        <!-- Fim 1ªColuna + Card-->
-
-        <!-- Inicio 2ªColuna + Card-->
-       <b-col>
-          <div  id="productCard2">
-            <b-card
-              title="Rapp/Hip hop"
-              img-src="https://jpimg.com.br/uploads/2018/08/travis-scott.jpg"
-              img-alt="Image"
-              img-top
-              tag="article"
-              style="max-width: 20rem"
-              class="mb-2"
-            >
-              <b-card-text>
-                <strong>Jacques Berman Webster II</strong>
-                <p align="start">
-                  <br />Jacques Berman Webster II, mais conhecido por seu nome
-                  artístico Travis Scott, é um rapper, cantor, compositor e
-                  produtor musical norte-americano. Em 2012, Scott assinou seu
-                  primeiro grande contrato com a gravadora Epic Records.
-                </p>
-              </b-card-text>
-               <b-button @click="$router.push('travis')"  variant="outline-secondary mt-4">Saiba Mais</b-button>
-            </b-card>
-          </div>
-        </b-col>
-        
-          <!-- Fim 2ªColuna + Card-->
-
-          <!-- Inicio 3ªColuna + Card-->
+    <div class="col-sm-12">
+      <b-container class="mt-5">
+        <h2 class="bv-row mt-5" id="productTitle">Melhores Avaliados por Categoria</h2>
+        <hr class="barHome mb-5"/>
+        <!--TITULO FIM-->
+        <!-- Inicio 1ªColuna + Card-->
+        <b-row>
           <b-col>
-          <div id="productCard3">
-            <b-card
-              title="Romantic/Pop"
-              img-src="https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2021/10/adele.jpg"
-              img-alt="Image"
-              img-top
-              tag="article"
-              style="max-width: 20rem"
-              class="mb-2"
-            >
-              <b-card-text>
-                <strong>Adele Laurie Blue Adkins MBE</strong>
-                <p align="start">
-                  <br />
-                  É uma cantora, compositora e multi-instrumentista britânica.
-                  Ela é um dos artistas recordistas de vendas no mundo, com mais
-                  de 120 milhões de discos vendidos.
-                </p>
-              </b-card-text>
-              <b-button @click="$router.push('Adele')"  variant="outline-secondary mt-5">Saiba Mais</b-button>
-            </b-card>
-          </div>
-        </b-col>
-      </b-row>
-    </b-container>
+            <div id="productCard">
+              <b-card
+                title="Musica Classica"
+                img-src="https://cdn.falauniversidades.com.br/wp-content/uploads/2020/05/05175049/Quem-%C3%A9-John-Williams.jpg"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem"
+                class="mb-2"
+              >
+                <b-card-text>
+                  <strong>John Towner Williams</strong>
+                  <p align="start">
+                    <br />Maestro e Compositor americano premiado várias vezes por
+                    suas trilhas sonoras. Amigo de Steven Spielberg, assina quase
+                    todas as trilhas de seus filmes, tais como os temas
+                    inesquecíveis de Jaws, E.T. the Extra-Terrestrial, Jurassic
+                    Park e Schindler's List.
+                  </p>
+                </b-card-text>
+                <b-button @click="$router.push('John')"  variant="outline-secondary">Saiba Mais</b-button>
+                </b-card>
+            </div>
+          </b-col>
+          <!-- Fim 1ªColuna + Card-->
+          <!-- Inicio 2ªColuna + Card-->
+         <b-col>
+            <div  id="productCard2">
+              <b-card
+                title="Rapp/Hip hop"
+                img-src="https://jpimg.com.br/uploads/2018/08/travis-scott.jpg"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem"
+                class="mb-2"
+              >
+                <b-card-text>
+                  <strong>Jacques Berman Webster II</strong>
+                  <p align="start">
+                    <br />Jacques Berman Webster II, mais conhecido por seu nome
+                    artístico Travis Scott, é um rapper, cantor, compositor e
+                    produtor musical norte-americano. Em 2012, Scott assinou seu
+                    primeiro grande contrato com a gravadora Epic Records.
+                  </p>
+                </b-card-text>
+                 <b-button @click="$router.push('travis')"  variant="outline-secondary mt-4">Saiba Mais</b-button>
+              </b-card>
+            </div>
+          </b-col>
+      
+            <!-- Fim 2ªColuna + Card-->
+            <!-- Inicio 3ªColuna + Card-->
+            <b-col >
+            <div id="productCard3">
+              <b-card
+                title="Romantic/Pop"
+                img-src="https://www.istoedinheiro.com.br/wp-content/uploads/sites/17/2021/10/adele.jpg"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem"
+                class="mb-2"
+              >
+                <b-card-text>
+                  <strong>Adele Laurie Blue Adkins MBE</strong>
+                  <p align="start">
+                    <br />
+                    É uma cantora, compositora e multi-instrumentista britânica.
+                    Ela é um dos artistas recordistas de vendas no mundo, com mais
+                    de 120 milhões de discos vendidos.
+                  </p>
+                </b-card-text>
+                <b-button @click="$router.push('Adele')"  variant="outline-secondary mt-5">Saiba Mais</b-button>
+              </b-card>
+            </div>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
     <footer id="foot">
     <b-row class="text-center" >
     <b-col>@2022 todos os direitos | Com muito esforço &#128074; desenvolvido por: Erik Araujo</b-col>
