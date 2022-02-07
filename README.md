@@ -52,6 +52,8 @@ Para obter os resultados mais proximos do enunciado ao gerar a API solicitei os 
 - image;
 - quantity;
 
+## Leia que lá vem história
+
 Anteriormente. Desenvolvida a Navbar + foto de usuario logado acompanhado de seu username ao lado direito com efeito em hover no css para ficar mais amigavel, junto a um carrrossel feito com a ajuda do bootstrap, pois meu foco era nas tecnologias desconhecidas por este motivo polpei o uso de massa cefálica ao que desconhecia.
 
 Seguindo, com o JSON criado importei ao script da home com auxílio do AXIOS, &#128161; no caso foi necessário criar uma requisição assincrona(async, await) para ler e interpretar os dados da MockAPI(APÓS MUITA TENTATIVA E ERRO MUITA MESMO! &#128532;). Em seguida utilizei o formato de Card do Bootstrap para que o front aparenta-se um produto virtual. Posteriormente o bom HTML & CSS vingou onde descrevi e Posicionei as informações de estoque e valor dos produtos, feito um footer e pronto Homepage concluída.
