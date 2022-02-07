@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand href="#" id="logo"
-        >VinilPay<img src="@/assets/background-logo.png" alt="" id="image" />
+        >VinilPay<img @click="$router.push('home')" src="@/assets/background-logo.png" alt="" id="image" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -21,17 +21,8 @@
           <!-- <b-nav-item @click="$router.push('travis')">John</b-nav-item> -->
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
-            <b-form-input
-              size="sm"
-              class="mr-sm-2"
-              placeholder="Pesquisar"
-              v-model="textSearch"
-            ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Ir</b-button>
-          </b-nav-form>
           <div>
-            <b-avatar rounded id="user-avatar">
+              <b-avatar rounded class="user-avatar">
               <img src="@/assets/doo.jpg" alt="" /></b-avatar
             ><span id="user-name">Fabio Herrera</span>
           </div>
@@ -58,7 +49,7 @@
         <b-row>
           <b-col>
             <h2 class="mt-3" id="productTitle">O Legado bem-sucedido do Rap/Hip Hop</h2>
-            <hr class="barHome" />
+            <hr class="barHome"/>
             <p align="start">
               Jacques Berman Webster II (Houston, 30 de abril de 1991), mais
               conhecido por seu nome artístico Travis Scott (antes estilizado
@@ -429,6 +420,32 @@ export default {
 
 
 <style>
+/*INICIO ESTILO HEADER*/
+#logo {
+  font-size: 2.5rem;
+}
+
+#image {
+  width: 70px;
+}
+
+.form-inline {
+  margin-right: 10px;
+}
+.user-avatar {
+  margin-right: 7px;
+}
+.user-avatar:hover {
+  border: solid #0ad46f 2px;
+}
+
+#user-name {
+  margin-right: 10px;
+  color: #f6f6f6;
+  font-weight: 500;
+}
+/*FIM ESTILO HEADER*/
+
 #productTitle{
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;

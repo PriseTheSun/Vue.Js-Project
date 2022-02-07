@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand href="#" id="logo"
-        >VinilPay<img src="@/assets/background-logo.png" alt="" id="image" />
+        >VinilPay<img @click="$router.push('home')" src="@/assets/background-logo.png" alt="" id="image" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -17,17 +17,8 @@
             </b-nav-item>
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
-            <b-form-input
-              size="sm"
-              class="mr-sm-2"
-              placeholder="Pesquisar"
-              v-model="textSearch"
-            ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Ir</b-button>
-          </b-nav-form>
           <div>
-            <b-avatar rounded id="user-avatar">
+            <b-avatar rounded class="user-avatar">
               <img src="@/assets/doo.jpg" alt="" /></b-avatar
             ><span id="user-name">Fabio Herrera</span>
           </div>
@@ -43,14 +34,14 @@
     </b-navbar>
 
     <!--TITULO INICIO-->
-    <b-container class="bv-row mt-5">
+    <b-container class="mt-5 col-12 col-md-6">
       <h2 class="bv-row mt-5" id="productTitle">Melhores Avaliados por Categoria</h2>
       <hr class="barHome mb-5"/>
       <!--TITULO FIM-->
 
       <!-- Inicio 1ªColuna + Card-->
       <b-row>
-        <b-col>
+        <b-col >
           <div id="productCard">
             <b-card
               title="Musica Classica"
@@ -78,7 +69,7 @@
         <!-- Fim 1ªColuna + Card-->
 
         <!-- Inicio 2ªColuna + Card-->
-        <b-col>
+       <b-col>
           <div  id="productCard2">
             <b-card
               title="Rapp/Hip hop"
@@ -102,10 +93,11 @@
             </b-card>
           </div>
         </b-col>
-        <b-col>
+        
           <!-- Fim 2ªColuna + Card-->
 
           <!-- Inicio 3ªColuna + Card-->
+          <b-col>
           <div id="productCard3">
             <b-card
               title="Romantic/Pop"
@@ -154,6 +146,23 @@ export default {
 </script>
 
 <style>
+#logo {
+  font-size: 2.5rem;
+}
+
+#image {
+  width: 70px;
+}
+
+.form-inline {
+  margin-right: 10px;
+}
+.user-avatar {
+  margin-right: 7px;
+}
+.user-avatar:hover {
+  border: solid #0ad46f 2px;
+}
 
 #productTitle{
   -webkit-animation-name: fadeInDown;

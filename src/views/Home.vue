@@ -3,7 +3,7 @@
     <!--HEADER-->
     <div>
       <b-navbar toggleable="lg" type="dark" variant="dark">
-        <b-navbar-brand href="#" id="logo"  
+        <b-navbar-brand href="#" id="logo"
           >VinilPay<img src="@/assets/background-logo.png" alt="" id="image" />
         </b-navbar-brand>
 
@@ -14,8 +14,11 @@
             <b-nav-item @click="$router.push('home')">Home</b-nav-item>
             <b-nav-item @click="$router.push('produtos')">Produtos</b-nav-item>
             <b-nav-item @click="$router.push('dash')">Dash</b-nav-item>
-            <b-nav-item href="https://github.com/PriseTheSun/Vue.Js-Project.git" Download>
-            Download do Projeto
+            <b-nav-item
+              href="https://github.com/PriseTheSun/Vue.Js-Project.git"
+              Download
+            >
+              Download do Projeto
             </b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav class="ml-auto">
@@ -26,9 +29,13 @@
                 placeholder="Pesquisar"
                 v-model="textSearch"
               ></b-form-input>
-              <b-button size="sm" class="my-2 my-sm-0" type="submit"
-                >Ir</b-button
-              >
+              <b-icon
+                icon="search"
+                animation="fade"
+                variant="light"
+                scale="1.5"
+              ></b-icon>
+              
             </b-nav-form>
             <div>
               <b-avatar rounded class="user-avatar">
@@ -117,15 +124,18 @@
       </div>
     </div>
     <!--FIM MOCK API-->
-  <!--FOOTER INICIO-->
-  <footer id="foot">
-    <b-row class="text-center" >
-    <b-col>@2022 todos os direitos | Com muito esforço &#128074; desenvolvido por: Erik Araujo</b-col>
-  </b-row>  
-  </footer>
-  <!--FOOTER FIM-->
+    <!--FOOTER INICIO-->
+    <footer id="foot">
+      <b-row class="text-center">
+        <b-col
+          >@2022 todos os direitos | Com muito esforço &#128074; desenvolvido
+          por: Erik Araujo</b-col
+        >
+      </b-row>
+    </footer>
+    <!--FOOTER FIM-->
   </div>
-  
+
 </template>
 
 
@@ -192,9 +202,8 @@ export default {
 .user-avatar {
   margin-right: 7px;
 }
-.user-avatar:hover{
-   border: solid #0ad46f 2px;
-   
+.user-avatar:hover {
+  border: solid #0ad46f 2px;
 }
 
 #user-name {
@@ -331,7 +340,7 @@ export default {
 .card {
   margin-bottom: 20px;
 }
-#foot{
+#foot {
   color: #f6f6f6;
   background-color: #343434;
   padding: 2.5rem;

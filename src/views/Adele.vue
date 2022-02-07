@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
       <b-navbar-brand href="#" id="logo"
-        >VinilPay<img src="@/assets/background-logo.png" alt="" id="image" />
+        >VinilPay<img @click="$router.push('home')" src="@/assets/background-logo.png" alt="" id="image" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -20,18 +20,9 @@
           </b-nav-item>
           <!-- <b-nav-item @click="$router.push('adele')">John</b-nav-item> -->
         </b-navbar-nav>
-        <b-navbar-nav class="ml-auto">
-          <b-nav-form>
-            <b-form-input
-              size="sm"
-              class="mr-sm-2"
-              placeholder="Pesquisar"
-              v-model="textSearch"
-            ></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Ir</b-button>
-          </b-nav-form>
+        <b-navbar-nav class="ml-auto">       
           <div>
-            <b-avatar rounded id="user-avatar">
+              <b-avatar rounded class="user-avatar">
               <img src="@/assets/doo.jpg" alt="" /></b-avatar
             ><span id="user-name">Fabio Herrera</span>
           </div>
@@ -619,6 +610,8 @@ export default {
 
 
 <style>
+
+
 #productTitle{
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
