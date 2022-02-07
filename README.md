@@ -65,6 +65,6 @@ maravilhos que me levariam ao sucesso. Com muita dificuldade segui a risca os rq
 
 No sexto dia. Acordei determinado a polir os graficos deixalos legiveis. E assim o fiz confesso que foi até tranquilo essa moldagem dos dados. As comparações foram feitas com Js. Com os dados bem polidos tinha quase tudo oque precisava a partir daqui, foi só perfumaria: Efeitos em CSS usando Webkit, aprendendo a criar as rotas finalizei outras três homepages para fins de treino e adaptação com o vue mesmo, trabalhei o responsivo dento do que conheço e cá estamos. Prontos exatamente as &#128337;2:41AM Descrevendo minha experiência incrivel. 
 
-Não foi um par de rosas, assim como tão pouco uma hydra de 7 cabeças. 
+Não foi um mar de rosas, assim como tão pouco uma hydra de 7 cabeças. 
 
 
